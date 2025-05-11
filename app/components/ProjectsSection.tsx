@@ -36,10 +36,14 @@ export default function ProjectsSection() {
                             </Text>
                             <HStack spacing={4}>
                                 <Button
-                                    colorScheme="red"
+                                    colorScheme="orange"
                                     variant="solid"
-                                    bg="red.500"
+                                    bg="orange.600"
+                                    _hover={{ bg: "orange.500" }}
                                     color="white"
+                                    borderWidth="2px"
+                                    borderColor="orange.800"
+                                    boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                     onClick={() => setShowTldr1((v) => !v)}
                                 >
                                     {showTldr1 ? 'Hide TLDR' : 'Read TLDR'}
@@ -47,8 +51,14 @@ export default function ProjectsSection() {
                                 <Button
                                     as={NextLink}
                                     href="/true-see"
-                                    colorScheme="red"
-                                    variant="outline"
+                                    colorScheme="gray"
+                                    variant="solid"
+                                    bg="gray.600"
+                                    _hover={{ bg: "gray.500" }}
+                                    color="white"
+                                    borderWidth="2px"
+                                    borderColor="gray.800"
+                                    boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                 >
                                     View Case Study
                                 </Button>
@@ -115,10 +125,14 @@ export default function ProjectsSection() {
                             <Text color="gray.300" lineHeight="1.6">Reducing the time-to-completion of onboarding through biometric age verification.</Text>
                             <HStack spacing={4}>
                                 <Button
-                                    colorScheme="green"
+                                    colorScheme="orange"
                                     variant="solid"
-                                    bg="green.500"
+                                    bg="orange.600"
+                                    _hover={{ bg: "orange.500" }}
                                     color="white"
+                                    borderWidth="2px"
+                                    borderColor="orange.800"
+                                    boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                     onClick={() => setShowTldr2((v) => !v)}
                                 >
                                     {showTldr2 ? 'Hide TLDR' : 'Read TLDR'}
@@ -126,8 +140,14 @@ export default function ProjectsSection() {
                                 <Button
                                     as={NextLink}
                                     href="/true-see"
-                                    colorScheme="green"
-                                    variant="outline"
+                                    colorScheme="gray"
+                                    variant="solid"
+                                    bg="gray.600"
+                                    _hover={{ bg: "gray.500" }}
+                                    color="white"
+                                    borderWidth="2px"
+                                    borderColor="gray.800"
+                                    boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                 >
                                     View Case Study
                                 </Button>
@@ -198,10 +218,14 @@ export default function ProjectsSection() {
                                 <Button
                                     as={NextLink}
                                     href="/older-work"
-                                    colorScheme="blue"
+                                    colorScheme="gray"
                                     variant="solid"
-                                    bg="blue.500"
+                                    bg="gray.600"
+                                    _hover={{ bg: "gray.500" }}
                                     color="white"
+                                    borderWidth="2px"
+                                    borderColor="gray.800"
+                                    boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                 >
                                     View Portfolio
                                 </Button>
