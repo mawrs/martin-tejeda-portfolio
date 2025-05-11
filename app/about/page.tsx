@@ -15,7 +15,7 @@ export default function AboutPage() {
                     <VStack align="flex-start" spacing={6} flex={1}>
                         <Heading as="h1" size="2xl" color="white" fontFamily="var(--font-host-grotesk)">About Me</Heading>
                         <Text color="gray.300" fontSize="lg">
-                            Hi! I'm Martin Tejeda, a product designer and creative technologist passionate about building delightful user experiences. I love working at the intersection of design, technology, and business, and believe in the power of design to solve real-world problems.
+                            Hi! I&apos;m Martin Tejeda, a product designer and creative technologist passionate about building delightful user experiences. I love working at the intersection of design, technology, and business, and believe in the power of design to solve real-world problems.
                         </Text>
                     </VStack>
                     <Box flex={1} display="flex" justifyContent="center">

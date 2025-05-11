@@ -138,7 +138,7 @@ export default function ProjectsSection() {
                                         <Box>
                                             <Heading size="sm" color="white" mb={2}>Project Summary</Heading>
                                             <Text color="gray.300" lineHeight="1.6">
-                                                Arcoscan's onboarding process was causing high drop-off rates. We implemented biometric age verification to streamline the process.
+                                                Arcoscan&apos;s onboarding process was causing high drop-off rates. We implemented biometric age verification to streamline the process.
                                             </Text>
                                         </Box>
                                         <Box>

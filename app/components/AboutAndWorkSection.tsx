@@ -11,7 +11,7 @@ export default function AboutAndWorkSection() {
                         Experienced Product Designer & Strategist
                     </Heading>
                     <Text fontSize="lg" color="gray.300">
-                        I'm a UX specialist with over 5 years of experience leading early-stage startups and large-scale cross-functional projects that deliver value to 12M+ users all over the world.
+                        I&apos;m a UX specialist with over 5 years of experience leading early-stage startups and large-scale cross-functional projects that deliver value to 12M+ users all over the world.
                     </Text>
                 </Box>
                 {/* Right: Image Collage */}
