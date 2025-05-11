@@ -47,9 +47,9 @@ export default function TrueSeeCaseStudy() {
                                     Qualitative:
                                 </Heading>
                                 <VStack as="ul" align="flex-start" spacing={2} pl={4} color="gray.300">
-                                    <Text as="li">Users described the product as "way more intuitive" than before.</Text>
+                                    <Text as="li">Users described the product as &quot;way more intuitive&quot; than before.</Text>
                                     <Text as="li">Physicians reported feeling more confident using the photo capture feature.</Text>
-                                    <Text as="li">Nurses described the interface as "fast and convenient."</Text>
+                                    <Text as="li">Nurses described the interface as &quot;fast and convenient.&quot;</Text>
                                 </VStack>
                             </Box>
                         </Box>
