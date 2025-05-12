@@ -1,7 +1,7 @@
 'use client'
 
 import { Box, Heading, Text, VStack, SimpleGrid, HStack, Icon, Image, Divider, Stack } from '@chakra-ui/react'
-import { FaBiking, FaMusic, FaBook, FaCode, FaRegSadTear, FaVideo } from 'react-icons/fa'
+import { FaMusic, FaBook, FaVideo } from 'react-icons/fa'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
@@ -20,13 +20,13 @@ export default function AboutPage() {
                             <Heading as="h1" size="2xl" color="white" fontFamily="var(--font-host-grotesk)">I'm Martin Tejeda</Heading>
                         </Box>
                         <Text color="gray.300" fontSize="lg">
-                            I'm a product designer & strategist based in San Francisco who loves finding the human side of tech. I'm fascinated by the advances in technology & often find myself tinkering with new tools.
+                            I&apos;m a product designer & strategist based in San Francisco who loves finding the human side of tech. I&apos;m fascinated by the advances in technology & often find myself tinkering with new tools.
                         </Text>
                         <Text color="gray.300" fontSize="lg">
                             I spent time at Facebook and Square, and jumped into early‑stage startups to have more ownership of the product cycle.
                         </Text>
                         <Text color="gray.300" fontSize="lg">
-                            When I'm not working or tinkering, I'm probably hanging out with my wife at a sports game or concert.
+                            When I&apos;m not working or tinkering, I&apos;m probably hanging out with my wife at a sports game or concert.
                         </Text>
                     </VStack>
                     <Box flex={1} display="flex" justifyContent="center">
@@ -117,28 +117,28 @@ export default function AboutPage() {
                                 <Heading as="h4" size="md" color="white" fontFamily="var(--font-host-grotesk)">Gigstarter</Heading>
                             </HStack>
                             <Text color="gray.300" mb={1}>A platform for college students to find short-term work opportunities.</Text>
-                            <Text color="gray.400" fontSize="sm">As an "F U" to unpaid internships, I created this app to help students find short-term work opportunities. There are only so many paid internships, and we all deserver to graduate with practical experience.It ultimately failed because I couldn't find enough relevant work to match the needs of the students.</Text>
+                            <Text color="gray.400" fontSize="sm">As an &apos;F U&apos; to unpaid internships, I created this app to help students find short-term work opportunities. There are only so many paid internships, and we all deserver to graduate with practical experience. It ultimately failed because I couldn&apos;t find enough relevant work to match the needs of the students.</Text>
                         </Box>
                         <Box bg="gray.800" p={6} borderRadius="lg">
                             <HStack spacing={3} mb={2}>
                                 <Heading as="h4" size="md" color="white" fontFamily="var(--font-host-grotesk)">3rd West</Heading>
                             </HStack>
                             <Text color="gray.300" mb={1}>Acquihire platform for AI startups.</Text>
-                            <Text color="gray.400" fontSize="sm">This was supposed to be a soft landing for startup founders who weren't having any success. I think this failed because startup founders are way more proud than I thought. I had a really hard time onboarding AI startups who hadn't failed yet. They didn't want to admit that the end was near.</Text>
+                            <Text color="gray.400" fontSize="sm">This was supposed to be a soft landing for startup founders who weren&apos;t having any success. I think this failed because startup founders are way more proud than I thought. I had a really hard time onboarding AI startups who hadn&apos;t failed yet. They didn&apos;t want to admit that the end was near.</Text>
                         </Box>
                         <Box bg="gray.800" p={6} borderRadius="lg">
                             <HStack spacing={3} mb={2}>
                                 <Heading as="h4" size="md" color="white" fontFamily="var(--font-host-grotesk)">NewCareers</Heading>
                             </HStack>
                             <Text color="gray.300" mb={1}>Alternative career paths for college students.</Text>
-                            <Text color="gray.400" fontSize="sm">A slight pivot from Gigstarter, this was supposed to be a platform for college students to find alternative career paths. I successfully onboarded about 25 students, but was unable to productize the platform to keep it running. AI compute is not cheap; or at least it wasn't back then.</Text>
+                            <Text color="gray.400" fontSize="sm">A slight pivot from Gigstarter, this was supposed to be a platform for college students to find alternative career paths. I successfully onboarded about 25 students, but was unable to productize the platform to keep it running. AI compute is not cheap; or at least it wasn&apos;t back then.</Text>
                         </Box>
                         <Box bg="gray.800" p={6} borderRadius="lg">
                             <HStack spacing={3} mb={2}>
                                 <Heading as="h4" size="md" color="white" fontFamily="var(--font-host-grotesk)">BookQuiz</Heading>
                             </HStack>
                             <Text color="gray.300" mb={1}>AI-curated book flashcards.</Text>
-                            <Text color="gray.400" fontSize="sm">This actually hasn't failed yet. I'm still working on it. The challenge is having AI parse the text of a book first-hand, versus relying on a summary of the book. Getting those books is proving to be a challenge.</Text>
+                            <Text color="gray.400" fontSize="sm">This actually hasn&apos;t failed yet. I&apos;m still working on it. The challenge is having AI parse the text of a book first-hand, versus relying on a summary of the book. Getting those books is proving to be a challenge.</Text>
                         </Box>
                     </SimpleGrid>
                 </VStack>

@@ -1,11 +1,9 @@
-import { Flex, Box, Link as ChakraLink, VStack, useColorModeValue, Image } from '@chakra-ui/react'
+import { Flex, Box, Link as ChakraLink, useColorModeValue, Image } from '@chakra-ui/react'
 import { usePathname } from 'next/navigation'
 import NextLink from 'next/link'
 
 export default function NavBar() {
     const pathname = usePathname();
-    const linkColor = useColorModeValue('gray.200', 'gray.200');
-    const activeColor = useColorModeValue('white', 'white');
 
     return (
         <Box as="header" bg="black" color="white" py={5}>
