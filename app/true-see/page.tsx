@@ -123,6 +123,38 @@ export default function TrueSeeCaseStudy() {
                             </Box>
                         </Box>
                     </Box>
+                    {/* Image below Core Workflow Section */}
+                    <Image
+                        src="/true-see/core_workflow.png"
+                        alt="TRUE-See Core Workflow Visual"
+                        borderRadius="lg"
+                        w="100%"
+                        maxH="600px"
+                        objectFit="cover"
+                        my={12}
+                    />
+                    {/* Objective Section */}
+                    <Box w="100%" my={16}>
+                        <Box display={{ base: 'block', md: 'flex' }} alignItems="flex-start" gap={12}>
+                            <Box flexShrink={0} minW={{ base: '100%', md: '220px' }} mb={{ base: 6, md: 0 }}>
+                                <Heading
+                                    as="h2"
+                                    fontSize={["2xl", "3xl", "4xl"]}
+                                    color="white"
+                                    fontFamily="var(--font-host-grotesk)"
+                                    fontWeight="bold"
+                                    textAlign={{ base: 'left', md: 'right' }}
+                                >
+                                    Objective
+                                </Heading>
+                            </Box>
+                            <Box flex={1} maxW="600px">
+                                <Text color="gray.300" fontSize="xl" fontWeight="bold">
+                                    Our objective was to learn about how members experience signing up for a box at different points in the season, identify the biggest pain points, and resolve them as part of our migration initiative without adding too much engineering scope.
+                                </Text>
+                            </Box>
+                        </Box>
+                    </Box>
                 </VStack>
             </Box>
             <Footer />

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Box, Stack, Image, Heading, Text, Button, VStack, HStack } from '@chakra-ui/react'
+import { Box, Stack, Image, Heading, Text, Button, VStack, HStack, Icon, UnorderedList, ListItem } from '@chakra-ui/react'
 import NextLink from 'next/link'
 
 export default function ProjectsSection() {
@@ -50,17 +50,18 @@ export default function ProjectsSection() {
                                 </Button>
                                 <Button
                                     as={NextLink}
-                                    href="/true-see"
+                                    href="#"
                                     colorScheme="gray"
                                     variant="solid"
-                                    bg="gray.600"
-                                    _hover={{ bg: "gray.500" }}
+                                    // bg="gray.600"
+                                    // _hover={{ bg: "gray.500" }}
                                     color="white"
                                     borderWidth="2px"
                                     borderColor="gray.800"
                                     boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
+                                    isDisabled={true}
                                 >
-                                    View Case Study
+                                    Case Study Coming Soon
                                 </Button>
                             </HStack>
                             {showTldr1 && (
@@ -69,32 +70,42 @@ export default function ProjectsSection() {
                                         <Box>
                                             <Heading size="sm" color="white" mb={2}>Project Summary</Heading>
                                             <Text color="gray.300" lineHeight="1.6">
-                                                TRUE-See needed to move away from EHR-dependent workflows to increase adoption and improve user experience.
+                                                From end-to-end, I led TRUE‑See’s shift away from EHR‑dependent workflows to broaden our user base and streamline photo capture & management.
                                             </Text>
                                         </Box>
                                         <Box>
                                             <Heading size="sm" color="white" mb={2}>Context</Heading>
                                             <Text color="gray.300" lineHeight="1.6">
-                                                The application was tightly coupled with specific EHR systems, limiting its potential user base and creating friction in workflows.
+                                                The app was tightly coupled with specific EHR systems, which narrowed our user base and added friction to everyday tasks.
                                             </Text>
                                         </Box>
                                         <Box>
                                             <Heading size="sm" color="white" mb={2}>Objective</Heading>
                                             <Text color="gray.300" lineHeight="1.6">
-                                                Create an EHR-agnostic solution that would work seamlessly across different healthcare environments.
+                                                Deliver an EHR-agnostic solution that would work seamlessly across different healthcare environments.
                                             </Text>
                                         </Box>
                                         <Box>
                                             <Heading size="sm" color="white" mb={2}>Approach</Heading>
                                             <Text color="gray.300" lineHeight="1.6">
-                                                Redesigned the core architecture and user flows to function independently while maintaining data integration capabilities.
+                                                I audited current workflows, ran user interviews, prototyped a new capture UI, validated it with physicians, and partnered with engineers to rebuild the data layer on FHIR APIs while staying HIPAA‑compliant.
                                             </Text>
                                         </Box>
                                         <Box>
-                                            <Heading size="sm" color="white" mb={2}>Results</Heading>
-                                            <Text color="gray.300" lineHeight="1.6">
-                                                Improved user satisfaction by 45% and increased adoption rates across healthcare facilities with the new EHR-agnostic application.
-                                            </Text>
+                                            <Heading size="sm" color="white" mb={2}>Results (so far)</Heading>
+                                            <VStack align="flex-start" spacing={2} w="100%">
+                                                <Text color="gray.300" fontWeight="semibold">Quantitative:</Text>
+                                                <UnorderedList pl={4} color="gray.300">
+                                                    <ListItem>30% increase in photo capture volume among private beta users.</ListItem>
+                                                    <ListItem>7 LOIs signed with potential new customers.</ListItem>
+                                                </UnorderedList>
+                                                <Text color="gray.300" fontWeight="semibold" mt={2}>Qualitative:</Text>
+                                                <UnorderedList pl={4} color="gray.300">
+                                                    <ListItem>Users described the product as "way more intuitive" than before.</ListItem>
+                                                    <ListItem>Physicians reported feeling more confident using the photo capture feature.</ListItem>
+                                                    <ListItem> Nurses described the interface as "fast and convenient."</ListItem>
+                                                </UnorderedList>
+                                            </VStack>
                                         </Box>
                                     </VStack>
                                 </Box>
@@ -139,17 +150,18 @@ export default function ProjectsSection() {
                                 </Button>
                                 <Button
                                     as={NextLink}
-                                    href="/true-see"
+                                    href="#"
                                     colorScheme="gray"
                                     variant="solid"
-                                    bg="gray.600"
-                                    _hover={{ bg: "gray.500" }}
+                                    // bg="gray.600"
+                                    // _hover={{ bg: "gray.500" }}
                                     color="white"
                                     borderWidth="2px"
                                     borderColor="gray.800"
                                     boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
+                                    isDisabled={true}
                                 >
-                                    View Case Study
+                                    Case Study Coming Soon
                                 </Button>
                             </HStack>
                             {showTldr2 && (
@@ -158,32 +170,38 @@ export default function ProjectsSection() {
                                         <Box>
                                             <Heading size="sm" color="white" mb={2}>Project Summary</Heading>
                                             <Text color="gray.300" lineHeight="1.6">
-                                                Arcoscan&apos;s onboarding process was causing high drop-off rates. We implemented biometric age verification to streamline the process.
+                                                As the lead UX / UI designer, I transformed Arcoscan&apos;s biometric age-verification tech into a fast, trustworthy flow that users could complete in seconds.
                                             </Text>
                                         </Box>
                                         <Box>
                                             <Heading size="sm" color="white" mb={2}>Context</Heading>
                                             <Text color="gray.300" lineHeight="1.6">
-                                                Users were abandoning the onboarding process due to lengthy verification steps, impacting conversion rates and user acquisition.
+                                                Online buyers of age‑restricted products faced slow ID uploads and confusing steps that caused over half of them to quit before finishing.
                                             </Text>
                                         </Box>
                                         <Box>
                                             <Heading size="sm" color="white" mb={2}>Objective</Heading>
                                             <Text color="gray.300" lineHeight="1.6">
-                                                Simplify the verification process while maintaining compliance with age verification requirements.
+                                                Create a facial‑recognition and liveness check that confirms age without ID photos and keeps users moving.
                                             </Text>
                                         </Box>
                                         <Box>
                                             <Heading size="sm" color="white" mb={2}>Approach</Heading>
                                             <Text color="gray.300" lineHeight="1.6">
-                                                Redesigned the onboarding flow with biometric verification technology to reduce friction and improve user experience.
-                                            </Text>
+                                                I researched biometric patterns, designed motion cues and clear copy, prototyped and iterated the flow, and partnered with engineers at a leading e-cigarette company during a three‑month pilot to fine‑tune errors and guidance.                                            </Text>
                                         </Box>
                                         <Box>
                                             <Heading size="sm" color="white" mb={2}>Results</Heading>
-                                            <Text color="gray.300" lineHeight="1.6">
-                                                Reduced onboarding time by 60% and increased conversion rates by 35% through the implementation of biometric verification.
-                                            </Text>
+                                            <VStack align="flex-start" spacing={2} w="100%">
+                                                <Text color="gray.300" fontWeight="semibold">Quantitative:</Text>
+                                                <UnorderedList pl={4} color="gray.300">
+                                                    <ListItem>Reduced abandonment rate from 51% to 20%.</ListItem>
+                                                </UnorderedList>
+                                                <Text color="gray.300" fontWeight="semibold" mt={2}>Qualitative:</Text>
+                                                <UnorderedList pl={4} color="gray.300">
+                                                    <ListItem>Users described the process as "quick and painless."</ListItem>
+                                                </UnorderedList>
+                                            </VStack>
                                         </Box>
                                     </VStack>
                                 </Box>
@@ -227,7 +245,7 @@ export default function ProjectsSection() {
                                     borderColor="gray.800"
                                     boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                 >
-                                    View Portfolio
+                                    View Older Work
                                 </Button>
                             </HStack>
                         </VStack>
