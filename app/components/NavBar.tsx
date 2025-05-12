@@ -1,4 +1,4 @@
-import { Flex, Box, Link as ChakraLink, useColorModeValue, Image } from '@chakra-ui/react'
+import { Flex, Box, Link as ChakraLink, Image } from '@chakra-ui/react'
 import { usePathname } from 'next/navigation'
 import NextLink from 'next/link'
 
