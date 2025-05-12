@@ -17,7 +17,7 @@ export default function AboutPage() {
                             <Text color="gray.300" fontSize="md" mb={2}>
                                 Nice to meet you
                             </Text>
-                            <Heading as="h1" size="2xl" color="white" fontFamily="var(--font-host-grotesk)">I'm Martin Tejeda</Heading>
+                            <Heading as="h1" size="2xl" color="white" fontFamily="var(--font-host-grotesk)">I&apos;m Martin Tejeda</Heading>
                         </Box>
                         <Text color="gray.300" fontSize="lg">
                             I&rsquo;m a product designer & strategist based in San Francisco who loves finding the human side of tech. I&rsquo;m fascinated by the advances in technology & often find myself tinkering with new tools.
