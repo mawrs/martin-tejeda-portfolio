@@ -206,10 +206,10 @@ export default function TrueSeeCaseStudy() {
                             </Box>
                             <Box flex={1} maxW="600px">
                                 <Text color="gray.300" fontSize="xl" fontWeight="bold">
-                                    As lead designer, we shaped Slide&apos;s new self‑service "File a Claim" flow so 163,000 incoming policyholders could file without calling support.
+                                    As lead designer, we shaped Slide&apos;s new self‑service &quot;File a Claim&quot; flow so 163,000 incoming policyholders could file without calling support.
                                 </Text>
                                 <Text color="gray.300" fontSize="lg" mt={4}>
-                                    We kicked off an on‑site GV Design Sprint with Slide&apos;s execs, prototyped an end‑to‑end "File a Claim" experience, and spun up a Tailwind‑based design system that plugged straight into dev. In three months we took average claim time from 20 min to 8 min, nearly halved support tickets, and cleared the runway for Slide to absorb 163,000 new policies (and later another 86,000 from Farmers) without adding headcount.                                </Text>
+                                    We kicked off an on‑site GV Design Sprint with Slide&apos;s execs, prototyped an end‑to‑end &quot;File a Claim&quot; experience, and spun up a Tailwind‑based design system that plugged straight into dev. In three months we took average claim time from 20 min to 8 min, nearly halved support tickets, and cleared the runway for Slide to absorb 163,000 new policies (and later another 86,000 from Farmers) without adding headcount.                                </Text>
                             </Box>
                         </Box>
                     </Box>
@@ -241,7 +241,7 @@ export default function TrueSeeCaseStudy() {
                             my={6}
                         />
                         <Text color="gray.400" fontSize="lg" textAlign="center" mb={6}>
-                            Mid-fidelity screens depicting the "File a Claim" self-service flow
+                            Mid-fidelity screens depicting the &quot;File a Claim&quot; self-service flow
                         </Text>
                     </Box>
 
@@ -256,7 +256,7 @@ export default function TrueSeeCaseStudy() {
                             my={6}
                         />
                         <Text color="gray.400" fontSize="lg" textAlign="center" mb={6}>
-                            High-fidelity designs for the "File a Claim" self-service flow
+                            High-fidelity designs for the &quot;File a Claim&quot; self-service flow
                         </Text>
                     </Box>
 

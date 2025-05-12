@@ -101,9 +101,9 @@ export default function ProjectsSection() {
                                                 </UnorderedList>
                                                 <Text color="gray.300" fontWeight="semibold" mt={2}>Qualitative:</Text>
                                                 <UnorderedList pl={4} color="gray.300">
-                                                    <ListItem>Users described the product as "way more intuitive" than before.</ListItem>
+                                                    <ListItem>Users described the product as &quot;way more intuitive&quot; than before.</ListItem>
                                                     <ListItem>Physicians reported feeling more confident using the photo capture feature.</ListItem>
-                                                    <ListItem> Nurses described the interface as "fast and convenient."</ListItem>
+                                                    <ListItem> Nurses described the interface as &quot;fast and convenient.&quot;</ListItem>
                                                 </UnorderedList>
                                             </VStack>
                                         </Box>
@@ -199,7 +199,7 @@ export default function ProjectsSection() {
                                                 </UnorderedList>
                                                 <Text color="gray.300" fontWeight="semibold" mt={2}>Qualitative:</Text>
                                                 <UnorderedList pl={4} color="gray.300">
-                                                    <ListItem>Users described the process as "quick and painless."</ListItem>
+                                                    <ListItem>Users described the process as &quot;quick and painless.&quot;</ListItem>
                                                 </UnorderedList>
                                             </VStack>
                                         </Box>
