@@ -61,7 +61,8 @@ export default function TrueSeeCaseStudy() {
                                 <Text color="gray.300" fontSize="lg" mb={4}>
                                     <b>Admin Notifications</b>
                                     <br />
-                                    I prototyped six design variants and set up segmented A/B tests that turned public‑figure pages into a focused hub, giving admins a quicker & cleaner way to spot what matters.                                </Text>
+                                    I prototyped six design variants and set up segmented A/B tests that turned public‑figure pages into a focused hub, giving admins a quicker & cleaner way to spot what matters.
+                                </Text>
 
                                 <Text color="gray.300" fontSize="lg">
                                     <b>Top Fans</b>

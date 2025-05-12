@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Box, Stack, Image, Heading, Text, Button, VStack, HStack, Icon, UnorderedList, ListItem } from '@chakra-ui/react'
+import { Box, Stack, Image, Heading, Text, Button, VStack, HStack, UnorderedList, ListItem } from '@chakra-ui/react'
 import NextLink from 'next/link'
 
 export default function ProjectsSection() {
@@ -70,7 +70,7 @@ export default function ProjectsSection() {
                                         <Box>
                                             <Heading size="sm" color="white" mb={2}>Project Summary</Heading>
                                             <Text color="gray.300" lineHeight="1.6">
-                                                From end-to-end, I led TRUE‑See’s shift away from EHR‑dependent workflows to broaden our user base and streamline photo capture & management.
+                                                From end-to-end, I led TRUE‑See&apos;s shift away from EHR‑dependent workflows to broaden our user base and streamline photo capture & management.
                                             </Text>
                                         </Box>
                                         <Box>
