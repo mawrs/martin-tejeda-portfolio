@@ -12,7 +12,7 @@ export default function Footer() {
                     fontSize="sm"
                     gap={{ base: 4, md: 0 }}
                 >
-                    <Text>Made with <Link href="https://cursor.sh" isExternal color="blue.300">Cursor</Link> & styled with <Link href="https://chakra-ui.com" isExternal color="teal.300">Chakra UI</Link></Text>
+                    <Text>Made with <Link href="https://cursor.sh" isExternal>Cursor</Link>. Styled with <Link href="https://chakra-ui.com" isExternal>Chakra UI.</Link></Text>
                     <HStack spacing={6}>
                         <Link href="https://www.linkedin.com/in/mawrs" isExternal display="flex" alignItems="center">
                             <Icon as={FaLinkedin} boxSize={5} mr={2} />

@@ -1,7 +1,7 @@
 'use client'
 
 import { Box, Heading, Text, VStack, SimpleGrid, HStack, Icon, Image, Divider, Stack } from '@chakra-ui/react'
-import { FaBiking, FaMusic, FaBook, FaCode, FaRegSadTear } from 'react-icons/fa'
+import { FaBiking, FaMusic, FaBook, FaCode, FaRegSadTear, FaVideo } from 'react-icons/fa'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
@@ -9,21 +9,32 @@ export default function AboutPage() {
     return (
         <Box minH="100vh" bg="gray.900">
             <NavBar />
-            <Box maxW="900px" mx="auto" px={6} py={16}>
+            <Box maxW="6xl" mx="auto" mt={20} px={8}>
                 {/* About Me Section */}
                 <Stack direction={{ base: 'column', md: 'row' }} spacing={8} mb={16} align="center">
                     <VStack align="flex-start" spacing={6} flex={1}>
-                        <Heading as="h1" size="2xl" color="white" fontFamily="var(--font-host-grotesk)">About Me</Heading>
+                        <Box>
+                            <Text color="gray.300" fontSize="md" mb={2}>
+                                Nice to meet you
+                            </Text>
+                            <Heading as="h1" size="2xl" color="white" fontFamily="var(--font-host-grotesk)">I'm Martin Tejeda</Heading>
+                        </Box>
                         <Text color="gray.300" fontSize="lg">
-                            Hi! I&apos;m Martin Tejeda, a product designer and creative technologist passionate about building delightful user experiences. I love working at the intersection of design, technology, and business, and believe in the power of design to solve real-world problems.
+                            I'm a product designer & strategist based in San Francisco who loves finding the human side of tech. I'm fascinated by the advances in technology & often find myself tinkering with new tools.
+                        </Text>
+                        <Text color="gray.300" fontSize="lg">
+                            I spent time at Facebook and Square, and jumped into early‑stage startups to have more ownership of the product cycle.
+                        </Text>
+                        <Text color="gray.300" fontSize="lg">
+                            When I'm not working or tinkering, I'm probably hanging out with my wife at a sports game or concert.
                         </Text>
                     </VStack>
                     <Box flex={1} display="flex" justifyContent="center">
                         <Image
-                            src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=400&q=80"
+                            src="/headshot.png"
                             alt="Martin Tejeda"
                             borderRadius="lg"
-                            boxSize="200px"
+                            boxSize="400px"
                             objectFit="cover"
                         />
                     </Box>
@@ -56,26 +67,44 @@ export default function AboutPage() {
                     </SimpleGrid>
                 </VStack>
                 <Divider borderColor="gray.700" mb={12} />
+
                 {/* Interests Section */}
                 <VStack align="flex-start" spacing={6} mb={16}>
                     <Heading as="h2" size="xl" color="white" fontFamily="var(--font-host-grotesk)">Interests</Heading>
-                    <SimpleGrid columns={{ base: 2, sm: 4 }} spacing={8} w="100%">
-                        <HStack spacing={3}>
-                            <Icon as={FaBiking} color="teal.300" boxSize={6} />
-                            <Text color="gray.200">Cycling</Text>
-                        </HStack>
-                        <HStack spacing={3}>
-                            <Icon as={FaMusic} color="teal.300" boxSize={6} />
-                            <Text color="gray.200">Music</Text>
-                        </HStack>
-                        <HStack spacing={3}>
-                            <Icon as={FaBook} color="teal.300" boxSize={6} />
-                            <Text color="gray.200">Reading</Text>
-                        </HStack>
-                        <HStack spacing={3}>
-                            <Icon as={FaCode} color="teal.300" boxSize={6} />
-                            <Text color="gray.200">Coding</Text>
-                        </HStack>
+                    <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8} w="100%">
+                        <VStack align="flex-start" spacing={2}>
+                            <HStack spacing={3}>
+                                <Icon as={FaBook} color="orange.200" boxSize={6} />
+                                <Text color="gray.200" fontWeight="medium">Non-fiction Books</Text>
+                            </HStack>
+                            <Box pl={10}>
+                                <Text color="gray.300" mb={1}>• The Design Conductors</Text>
+                                <Text color="gray.300" mb={1}>• Hell Yeah or No</Text>
+                                <Text color="gray.300" mb={1}>• Never Split the Difference</Text>
+                            </Box>
+                        </VStack>
+                        <VStack align="flex-start" spacing={2}>
+                            <HStack spacing={3}>
+                                <Icon as={FaMusic} color="orange.200" boxSize={6} />
+                                <Text color="gray.200" fontWeight="medium">Indie Music</Text>
+                            </HStack>
+                            <Box pl={10}>
+                                <Text color="gray.300" mb={1}>• Portugal. The Man</Text>
+                                <Text color="gray.300" mb={1}>• Vacations</Text>
+                                <Text color="gray.300" mb={1}>• Men I Trust</Text>
+                            </Box>
+                        </VStack>
+                        <VStack align="flex-start" spacing={2}>
+                            <HStack spacing={3}>
+                                <Icon as={FaVideo} color="orange.200" boxSize={6} />
+                                <Text color="gray.200" fontWeight="medium">How-To Videos</Text>
+                            </HStack>
+                            <Box pl={10}>
+                                <Text color="gray.300" mb={1}>• Home DIY projects</Text>
+                                <Text color="gray.300" mb={1}>• Cooking techniques</Text>
+                                <Text color="gray.300" mb={1}>• Tech tutorials & demos</Text>
+                            </Box>
+                        </VStack>
                     </SimpleGrid>
                 </VStack>
                 <Divider borderColor="gray.700" mb={12} />
@@ -85,19 +114,31 @@ export default function AboutPage() {
                     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8} w="100%">
                         <Box bg="gray.800" p={6} borderRadius="lg">
                             <HStack spacing={3} mb={2}>
-                                <Icon as={FaRegSadTear} color="red.300" boxSize={6} />
-                                <Heading as="h4" size="md" color="white" fontFamily="var(--font-host-grotesk)">StartupX</Heading>
+                                <Heading as="h4" size="md" color="white" fontFamily="var(--font-host-grotesk)">Gigstarter</Heading>
                             </HStack>
-                            <Text color="gray.300" mb={1}>A platform for connecting startup founders with mentors.</Text>
-                            <Text color="gray.400" fontSize="sm">Why it failed: No product-market fit and limited user engagement.</Text>
+                            <Text color="gray.300" mb={1}>A platform for college students to find short-term work opportunities.</Text>
+                            <Text color="gray.400" fontSize="sm">As an "F U" to unpaid internships, I created this app to help students find short-term work opportunities. There are only so many paid internships, and we all deserver to graduate with practical experience.It ultimately failed because I couldn't find enough relevant work to match the needs of the students.</Text>
                         </Box>
                         <Box bg="gray.800" p={6} borderRadius="lg">
                             <HStack spacing={3} mb={2}>
-                                <Icon as={FaRegSadTear} color="red.300" boxSize={6} />
-                                <Heading as="h4" size="md" color="white" fontFamily="var(--font-host-grotesk)">FitFriends</Heading>
+                                <Heading as="h4" size="md" color="white" fontFamily="var(--font-host-grotesk)">3rd West</Heading>
                             </HStack>
-                            <Text color="gray.300" mb={1}>A social app for finding workout buddies nearby.</Text>
-                            <Text color="gray.400" fontSize="sm">Why it failed: Difficult to scale and retain active users.</Text>
+                            <Text color="gray.300" mb={1}>Acquihire platform for AI startups.</Text>
+                            <Text color="gray.400" fontSize="sm">This was supposed to be a soft landing for startup founders who weren't having any success. I think this failed because startup founders are way more proud than I thought. I had a really hard time onboarding AI startups who hadn't failed yet. They didn't want to admit that the end was near.</Text>
+                        </Box>
+                        <Box bg="gray.800" p={6} borderRadius="lg">
+                            <HStack spacing={3} mb={2}>
+                                <Heading as="h4" size="md" color="white" fontFamily="var(--font-host-grotesk)">NewCareers</Heading>
+                            </HStack>
+                            <Text color="gray.300" mb={1}>Alternative career paths for college students.</Text>
+                            <Text color="gray.400" fontSize="sm">A slight pivot from Gigstarter, this was supposed to be a platform for college students to find alternative career paths. I successfully onboarded about 25 students, but was unable to productize the platform to keep it running. AI compute is not cheap; or at least it wasn't back then.</Text>
+                        </Box>
+                        <Box bg="gray.800" p={6} borderRadius="lg">
+                            <HStack spacing={3} mb={2}>
+                                <Heading as="h4" size="md" color="white" fontFamily="var(--font-host-grotesk)">BookQuiz</Heading>
+                            </HStack>
+                            <Text color="gray.300" mb={1}>AI-curated book flashcards.</Text>
+                            <Text color="gray.400" fontSize="sm">This actually hasn't failed yet. I'm still working on it. The challenge is having AI parse the text of a book first-hand, versus relying on a summary of the book. Getting those books is proving to be a challenge.</Text>
                         </Box>
                     </SimpleGrid>
                 </VStack>

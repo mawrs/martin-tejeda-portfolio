@@ -11,7 +11,7 @@ export default function AboutAndWorkSection() {
                         Experienced Product Designer & Strategist
                     </Heading>
                     <Text fontSize="lg" color="gray.300">
-                        I&apos;m a UX specialist with over 5 years of experience leading early-stage startups and large-scale cross-functional projects that deliver value to 12M+ users all over the world.
+                        I&apos;m a product designer & strategist with over 5 years of experience leading early-stage startups and large-scale cross-functional projects that deliver real value globally.
                     </Text>
                 </Box>
                 {/* Right: Image Collage */}
@@ -30,8 +30,8 @@ export default function AboutAndWorkSection() {
                         />
                         {/* Badge Overlay */}
                         <Image
-                            src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*LgCzD6KU29XX2q5fGt2Ofw.png"
-                            alt="NNG Badge"
+                            src="nng_progress.png"
+                            alt="NNG Progress Badge"
                             position="absolute"
                             top="-20px"
                             right="-20px"
@@ -53,19 +53,19 @@ export default function AboutAndWorkSection() {
                             boxShadow="lg"
                             zIndex={2}
                             bg="gray.800"
-                            borderRadius="md"
+                            borderRadius="sm"
                             p={1}
                         >
                             <Image
                                 src="/leanstack.png"
-                                alt="Jakob Nielsen"
+                                alt="LEANSTACK Certified"
                                 borderRadius="md"
                                 w="full"
                                 h="80px"
                                 objectFit="cover"
                             />
                             <Text fontSize="xs" color="gray.400" mt={1} textAlign="center">
-                                Posing with Someone
+                                LEANSTACK Certified
                             </Text>
                         </Box>
                     </Box>

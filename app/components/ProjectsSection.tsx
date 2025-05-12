@@ -34,7 +34,7 @@ export default function ProjectsSection() {
                                 detaching from the existing EHR integration into an
                                 EHR-agnostic application.
                             </Text>
-                            <HStack spacing={4}>
+                            <Stack direction={{ base: 'column', sm: 'row' }} spacing={4} w="100%">
                                 <Button
                                     colorScheme="orange"
                                     variant="solid"
@@ -45,6 +45,7 @@ export default function ProjectsSection() {
                                     borderColor="orange.800"
                                     boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                     onClick={() => setShowTldr1((v) => !v)}
+                                    w={{ base: "100%", sm: "auto" }}
                                 >
                                     {showTldr1 ? 'Hide TLDR' : 'Read TLDR'}
                                 </Button>
@@ -53,17 +54,16 @@ export default function ProjectsSection() {
                                     href="#"
                                     colorScheme="gray"
                                     variant="solid"
-                                    // bg="gray.600"
-                                    // _hover={{ bg: "gray.500" }}
                                     color="white"
                                     borderWidth="2px"
                                     borderColor="gray.800"
                                     boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                     isDisabled={true}
+                                    w={{ base: "100%", sm: "auto" }}
                                 >
                                     Case Study Coming Soon
                                 </Button>
-                            </HStack>
+                            </Stack>
                             {showTldr1 && (
                                 <Box bg="gray.700" p={6} mt={2} borderRadius="lg" width="100%">
                                     <VStack align="flex-start" spacing={4}>
@@ -134,7 +134,7 @@ export default function ProjectsSection() {
                         <VStack align="flex-start" spacing={4} flex={1}>
                             <Heading size="md" color="white">Reducing onboarding friction at Arcoscan</Heading>
                             <Text color="gray.300" lineHeight="1.6">Reducing the time-to-completion of onboarding through biometric age verification.</Text>
-                            <HStack spacing={4}>
+                            <Stack direction={{ base: 'column', sm: 'row' }} spacing={4} w="100%">
                                 <Button
                                     colorScheme="orange"
                                     variant="solid"
@@ -145,6 +145,7 @@ export default function ProjectsSection() {
                                     borderColor="orange.800"
                                     boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                     onClick={() => setShowTldr2((v) => !v)}
+                                    w={{ base: "100%", sm: "auto" }}
                                 >
                                     {showTldr2 ? 'Hide TLDR' : 'Read TLDR'}
                                 </Button>
@@ -153,17 +154,16 @@ export default function ProjectsSection() {
                                     href="#"
                                     colorScheme="gray"
                                     variant="solid"
-                                    // bg="gray.600"
-                                    // _hover={{ bg: "gray.500" }}
                                     color="white"
                                     borderWidth="2px"
                                     borderColor="gray.800"
                                     boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                     isDisabled={true}
+                                    w={{ base: "100%", sm: "auto" }}
                                 >
                                     Case Study Coming Soon
                                 </Button>
-                            </HStack>
+                            </Stack>
                             {showTldr2 && (
                                 <Box bg="gray.700" p={6} mt={2} borderRadius="lg" width="100%">
                                     <VStack align="flex-start" spacing={6}>

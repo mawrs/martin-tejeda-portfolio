@@ -11,19 +11,48 @@ export default function NavBar() {
         <Box as="header" bg="black" color="white" py={5}>
             <Box maxW="1200px" mx="auto" px={12}>
                 <Flex align="center" justify="space-between">
-                    <VStack align="flex-start" spacing={0}>
-                        <ChakraLink as={NextLink} href="/" _hover={{ textDecoration: 'none' }}>
-                            <Image src="/logo.svg" alt="Logo" boxSize="40px" objectFit="contain" />
+                    <Box>
+                        <ChakraLink
+                            as={NextLink}
+                            href="/"
+                            color={pathname === '/' ? 'white' : 'gray.200'}
+                            fontSize="sm"
+                            fontWeight="medium"
+                            borderWidth="2px"
+                            borderColor="gray.600"
+                            borderRadius="md"
+                            px={3}
+                            py={2}
+                            _hover={{
+                                bg: "gray.500",
+                                textDecoration: 'none',
+                                color: 'white'
+                            }}
+                            boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
+                            display="flex"
+                            alignItems="center"
+                        >
+                            <Image src="/logo.svg" alt="Logo" boxSize="20px" objectFit="contain" />
                         </ChakraLink>
-                    </VStack>
+                    </Box>
                     <Box>
                         <ChakraLink
                             as={NextLink}
                             href="/about"
-                            color={pathname === '/about' ? activeColor : linkColor}
+                            color={pathname === '/about' ? 'white' : 'gray.200'}
                             fontSize="sm"
                             fontWeight="medium"
-                            _hover={{ textDecoration: 'underline', color: 'white' }}
+                            borderWidth="2px"
+                            borderColor="gray.600"
+                            borderRadius="md"
+                            px={3}
+                            py={2}
+                            _hover={{
+                                bg: "gray.500",
+                                textDecoration: 'none',
+                                color: 'white'
+                            }}
+                            boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                         >
                             ABOUT / CV
                         </ChakraLink>
