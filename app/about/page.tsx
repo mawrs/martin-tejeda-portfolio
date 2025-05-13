@@ -66,7 +66,7 @@ export default function AboutPage() {
                         </VStack>
                     </SimpleGrid>
                     <Link
-                        href="/martin_tejeda_resume.pdf"
+                        href="Martin_Tejeda_Resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         bg="orange.600"
