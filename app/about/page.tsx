@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Heading, Text, VStack, SimpleGrid, HStack, Icon, Image, Divider, Stack } from '@chakra-ui/react'
+import { Box, Heading, Text, VStack, SimpleGrid, HStack, Icon, Image, Divider, Stack, Link } from '@chakra-ui/react'
 import { FaMusic, FaBook, FaVideo } from 'react-icons/fa'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
@@ -65,6 +65,27 @@ export default function AboutPage() {
                             <Text color="gray.400">2020 — 2021</Text>
                         </VStack>
                     </SimpleGrid>
+                    <Link
+                        href="/martin_tejeda_resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        bg="orange.600"
+                        _hover={{ bg: "orange.500" }}
+                        color="white"
+                        borderWidth="2px"
+                        borderColor="orange.800"
+                        boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
+                        px={4}
+                        py={2}
+                        borderRadius="md"
+                        fontWeight="medium"
+                        transition="background 0.2s"
+                        alignSelf="flex-start"
+                        mt={4}
+                        display="inline-block"
+                    >
+                        View Full Resume
+                    </Link>
                 </VStack>
                 <Divider borderColor="gray.700" mb={12} />
 

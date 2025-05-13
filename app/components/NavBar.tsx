@@ -40,16 +40,13 @@ export default function NavBar() {
                             color={pathname === '/about' ? 'white' : 'gray.200'}
                             fontSize="sm"
                             fontWeight="medium"
-                            borderWidth="2px"
-                            borderColor="gray.600"
                             borderRadius="md"
                             px={3}
                             py={2}
-                            _hover={{
-                                bg: "gray.500",
-                                textDecoration: 'none',
-                                color: 'white'
-                            }}
+                            bg="gray.600"
+                            _hover={{ bg: "gray.500" }}
+                            borderWidth="2px"
+                            borderColor="gray.800"
                             boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                         >
                             ABOUT / CV
