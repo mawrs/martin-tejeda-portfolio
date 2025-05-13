@@ -133,7 +133,7 @@ export default function ProjectsSection() {
                         />
                         <VStack align="flex-start" spacing={4} flex={1}>
                             <Heading size="md" color="white">Reducing abandonment rate at Arcoscan</Heading>
-                            <Text color="gray.300" lineHeight="1.6">Reducing the abandonment rate of a major e-cigarette company's onboarding experiencethrough streamlined biometric age verification.</Text>
+                            <Text color="gray.300" lineHeight="1.6">Reducing the abandonment rate of a major e-cigarette company&apos;s onboarding experiencethrough streamlined biometric age verification.</Text>
                             <Stack direction={{ base: 'column', sm: 'row' }} spacing={4} w="100%">
                                 <Button
                                     colorScheme="orange"

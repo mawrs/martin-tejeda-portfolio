@@ -1,4 +1,4 @@
-import { Flex, Box, Text, Link, HStack, Icon, VStack, Grid, GridItem } from '@chakra-ui/react'
+import { Flex, Box, Text, Link, HStack, Icon, Grid, GridItem } from '@chakra-ui/react'
 import { FaLinkedin, FaEnvelope, FaArrowUp } from 'react-icons/fa'
 
 export default function Footer() {
