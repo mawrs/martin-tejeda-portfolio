@@ -31,8 +31,8 @@ export default function TrueSeeCaseStudy() {
                         </Box>
                     </SimpleGrid>
                     <Image
-                        src="/true-see/hero.png"
-                        alt="TRUE-See Hero"
+                        src="olderwork_main.png"
+                        alt="Collection of older projects"
                         borderRadius="lg"
                         w="100%"
                         maxH="600px"

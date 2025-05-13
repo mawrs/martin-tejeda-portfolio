@@ -20,7 +20,7 @@ export default function ProjectsSection() {
                         align="stretch"
                     >
                         <Image
-                            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+                            src="/ts_thumbnail.png"
                             alt="Project 1"
                             boxSize={{ base: '100%', md: '180px' }}
                             objectFit="cover"
@@ -30,7 +30,7 @@ export default function ProjectsSection() {
                         <VStack align="flex-start" spacing={4} flex={1}>
                             <Heading size="md" color="white">Boosting adoption at TRUE-See</Heading>
                             <Text color="gray.300" lineHeight="1.6">
-                                Improving the overall user experience of the app by
+                                Improving the overall user experience of our patient app by
                                 detaching from the existing EHR integration into an
                                 EHR-agnostic application.
                             </Text>
@@ -124,7 +124,7 @@ export default function ProjectsSection() {
                         align="stretch"
                     >
                         <Image
-                            src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80"
+                            src="/arcoscan_thumbnail.png"
                             alt="Project 2"
                             boxSize={{ base: '100%', md: '180px' }}
                             objectFit="cover"
@@ -132,8 +132,8 @@ export default function ProjectsSection() {
                             flexShrink={0}
                         />
                         <VStack align="flex-start" spacing={4} flex={1}>
-                            <Heading size="md" color="white">Reducing onboarding friction at Arcoscan</Heading>
-                            <Text color="gray.300" lineHeight="1.6">Reducing the time-to-completion of onboarding through biometric age verification.</Text>
+                            <Heading size="md" color="white">Reducing abandonment rate at Arcoscan</Heading>
+                            <Text color="gray.300" lineHeight="1.6">Reducing the abandonment rate of a major e-cigarette company's onboarding experiencethrough streamlined biometric age verification.</Text>
                             <Stack direction={{ base: 'column', sm: 'row' }} spacing={4} w="100%">
                                 <Button
                                     colorScheme="orange"
@@ -220,7 +220,7 @@ export default function ProjectsSection() {
                         align="stretch"
                     >
                         <Image
-                            src="https://placehold.co/400x300/333/white?text=Older+Work"
+                            src="/olderwork_thumbnail.png"
                             alt="Older Work"
                             boxSize={{ base: '100%', md: '180px' }}
                             objectFit="cover"
