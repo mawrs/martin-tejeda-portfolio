@@ -60,10 +60,12 @@ export default function ProjectsSection() {
                                     w={{ base: "100%", sm: "auto" }}
                                     _disabled={{
                                         bg: "gray.800",
-                                        color: "whiteAlpha.700",
+                                        color: "whiteAlpha.800",
                                         opacity: 1,
                                         cursor: "not-allowed"
                                     }}
+                                    _active={{}}
+                                    pointerEvents="none"
                                 >
                                     Case Study Coming Soon
                                 </Button>
@@ -164,10 +166,12 @@ export default function ProjectsSection() {
                                     w={{ base: "100%", sm: "auto" }}
                                     _disabled={{
                                         bg: "gray.800",
-                                        color: "whiteAlpha.700",
+                                        color: "whiteAlpha.800",
                                         opacity: 1,
                                         cursor: "not-allowed"
                                     }}
+                                    _active={{}}
+                                    pointerEvents="none"
                                 >
                                     Case Study Coming Soon
                                 </Button>
