@@ -18,7 +18,7 @@ export default function Home() {
               Currently Product Designer @ TRUE-See.
             </Text>
           </Box>
-          <Heading as="h1" fontSize={["4xl", "6xl", "8xl"]} fontWeight="light" color="white" letterSpacing="tighter" lineHeight="0.9">
+          <Heading as="h1" fontSize={["5xl", "6xl", "8xl"]} fontWeight="light" color="white" letterSpacing="tighter" lineHeight="0.9">
             Business minded & driven by user outcomes.
           </Heading>
         </VStack>

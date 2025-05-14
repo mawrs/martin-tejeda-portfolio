@@ -50,8 +50,6 @@ export default function ProjectsSection() {
                                     {showTldr1 ? 'Hide TLDR' : 'Read TLDR'}
                                 </Button>
                                 <Button
-                                    as={NextLink}
-                                    href="#"
                                     colorScheme="gray"
                                     variant="solid"
                                     color="white"
@@ -60,6 +58,12 @@ export default function ProjectsSection() {
                                     boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                     isDisabled={true}
                                     w={{ base: "100%", sm: "auto" }}
+                                    _disabled={{
+                                        bg: "gray.800",
+                                        color: "whiteAlpha.700",
+                                        opacity: 1,
+                                        cursor: "not-allowed"
+                                    }}
                                 >
                                     Case Study Coming Soon
                                 </Button>
@@ -150,8 +154,6 @@ export default function ProjectsSection() {
                                     {showTldr2 ? 'Hide TLDR' : 'Read TLDR'}
                                 </Button>
                                 <Button
-                                    as={NextLink}
-                                    href="#"
                                     colorScheme="gray"
                                     variant="solid"
                                     color="white"
@@ -160,6 +162,12 @@ export default function ProjectsSection() {
                                     boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                     isDisabled={true}
                                     w={{ base: "100%", sm: "auto" }}
+                                    _disabled={{
+                                        bg: "gray.800",
+                                        color: "whiteAlpha.700",
+                                        opacity: 1,
+                                        cursor: "not-allowed"
+                                    }}
                                 >
                                     Case Study Coming Soon
                                 </Button>
