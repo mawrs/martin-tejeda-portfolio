@@ -38,7 +38,7 @@ export default function TrueSeeCaseStudy() {
                                     Quantitative:
                                 </Heading>
                                 <VStack as="ul" align="flex-start" spacing={2} pl={4} color="gray.300">
-                                    <Text as="li">30% increase in photo-taking among private beta users.</Text>
+                                    <Text as="li">30% increase in photo capture volume among private beta users.</Text>
                                     <Text as="li">7 LOIs signed with potential new customers.</Text>
                                 </VStack>
                             </Box>

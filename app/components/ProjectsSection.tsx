@@ -102,8 +102,8 @@ export default function ProjectsSection() {
                                             <VStack align="flex-start" spacing={2} w="100%">
                                                 <Text color="gray.300" fontWeight="semibold">Quantitative:</Text>
                                                 <UnorderedList pl={4} color="gray.300">
-                                                    <ListItem>30% increase in photo capture volume among private beta users.</ListItem>
-                                                    <ListItem>7 LOIs signed with potential new customers.</ListItem>
+                                                    <ListItem>Analytics infrastructure deployed with PostHog to capture real-time user engagement, feature adoption, and conversion metrics.</ListItem>
+                                                    <ListItem>KPIs from private beta coming soon.</ListItem>
                                                 </UnorderedList>
                                                 <Text color="gray.300" fontWeight="semibold" mt={2}>Qualitative:</Text>
                                                 <UnorderedList pl={4} color="gray.300">
