@@ -131,7 +131,7 @@ export default function AboutPage() {
                 <Divider borderColor="gray.700" mb={12} />
                 {/* Failed Side Projects Section */}
                 <VStack align="flex-start" spacing={6}>
-                    <Heading as="h2" size="xl" color="white" fontFamily="var(--font-host-grotesk)">Failed Side Projects</Heading>
+                    <Heading as="h2" size="xl" color="white" fontFamily="var(--font-host-grotesk)">Side Projects</Heading>
                     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8} w="100%">
                         <Box bg="gray.800" p={6} borderRadius="lg">
                             <HStack spacing={3} mb={2}>
