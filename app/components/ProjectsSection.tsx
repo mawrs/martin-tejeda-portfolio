@@ -139,7 +139,7 @@ export default function ProjectsSection() {
                         />
                         <VStack align="flex-start" spacing={4} flex={1}>
                             <Heading size="md" color="white">Reducing abandonment rate at Arcoscan</Heading>
-                            <Text color="gray.300" lineHeight="1.6">Reducing the abandonment rate of a major e-cigarette company&apos;s onboarding experiencethrough streamlined biometric age verification.</Text>
+                            <Text color="gray.300" lineHeight="1.6">Reducing the abandonment rate of a major e-cigarette company&apos;s onboarding experience through AI-powered facial recognition and liveness checks.</Text>
                             <Stack direction={{ base: 'column', sm: 'row' }} spacing={4} w="100%">
                                 <Button
                                     colorScheme="orange"
@@ -182,7 +182,7 @@ export default function ProjectsSection() {
                                         <Box>
                                             <Heading size="sm" color="white" mb={2}>Project Summary</Heading>
                                             <Text color="gray.300" lineHeight="1.6">
-                                                As the lead UX / UI designer, I transformed Arcoscan&apos;s biometric age-verification tech into a fast, trustworthy flow that users could complete in seconds.
+                                                As the lead UX / UI designer, I transformed Arcoscan&apos;s AI-powered facial recognition and liveness detection tech into a fast, trustworthy flow that users could complete in seconds.
                                             </Text>
                                         </Box>
                                         <Box>
