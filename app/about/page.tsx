@@ -77,7 +77,7 @@ export default function AboutPage() {
                         boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                         px={4}
                         py={2}
-                        borderRadius="md"
+                        borderRadius="full"
                         fontWeight="medium"
                         transition="background 0.2s"
                         alignSelf="flex-start"
@@ -95,7 +95,7 @@ export default function AboutPage() {
                     <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8} w="100%">
                         <VStack align="flex-start" spacing={2}>
                             <HStack spacing={3}>
-                                <Icon as={FaBook} color="orange.200" boxSize={6} />
+                                <Image src="/books.webp" alt="Book Logo" height="40px" width="40px" />
                                 <Text color="gray.200" fontWeight="medium">Non-fiction Books</Text>
                             </HStack>
                             <Box pl={10}>
@@ -106,7 +106,7 @@ export default function AboutPage() {
                         </VStack>
                         <VStack align="flex-start" spacing={2}>
                             <HStack spacing={3}>
-                                <Icon as={FaMusic} color="orange.200" boxSize={6} />
+                                <Image src="/music.webp" alt="Music Logo" height="40px" width="40px" />
                                 <Text color="gray.200" fontWeight="medium">Indie Music</Text>
                             </HStack>
                             <Box pl={10}>
@@ -117,7 +117,7 @@ export default function AboutPage() {
                         </VStack>
                         <VStack align="flex-start" spacing={2}>
                             <HStack spacing={3}>
-                                <Icon as={FaVideo} color="orange.200" boxSize={6} />
+                                <Image src="/videos.webp" alt="Video Logo" height="40px" width="40px" />
                                 <Text color="gray.200" fontWeight="medium">How-To Videos</Text>
                             </HStack>
                             <Box pl={10}>

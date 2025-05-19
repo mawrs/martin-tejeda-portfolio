@@ -14,23 +14,38 @@ export default function NavBar() {
                             as={NextLink}
                             href="/"
                             color={pathname === '/' ? 'white' : 'gray.200'}
-                            fontSize="sm"
+                            fontSize="md"
                             fontWeight="medium"
-                            borderWidth="2px"
-                            borderColor="gray.600"
-                            borderRadius="md"
                             px={3}
                             py={2}
-                            _hover={{
-                                bg: "gray.500",
-                                textDecoration: 'none',
-                                color: 'white'
-                            }}
-                            boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
+                            bg="transparent"
                             display="flex"
                             alignItems="center"
+                            textDecoration="none"
+                            position="relative"
+                            _hover={{
+                                textDecoration: "none",
+                                "::after": {
+                                    width: "100%",
+                                    opacity: 1
+                                }
+                            }}
+                            sx={{
+                                "::after": {
+                                    content: '""',
+                                    position: "absolute",
+                                    bottom: "0",
+                                    left: "0",
+                                    width: "0%",
+                                    height: "2px",
+                                    bg: "white",
+                                    transition: "width 0.3s ease, opacity 0.3s ease",
+                                    opacity: 0
+                                }
+                            }}
                         >
-                            <Image src="/logo.svg" alt="Logo" boxSize="20px" objectFit="contain" />
+                            <Image src="/logo_2.webp" alt="Logo" height="40px" mr={2} />
+                            Home
                         </ChakraLink>
                     </Box>
                     <Box>
@@ -38,18 +53,38 @@ export default function NavBar() {
                             as={NextLink}
                             href="/about"
                             color={pathname === '/about' ? 'white' : 'gray.200'}
-                            fontSize="sm"
+                            fontSize="md"
                             fontWeight="medium"
-                            borderRadius="md"
                             px={3}
                             py={2}
-                            bg="gray.600"
-                            _hover={{ bg: "gray.500" }}
-                            borderWidth="2px"
-                            borderColor="gray.800"
-                            boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
+                            bg="transparent"
+                            display="flex"
+                            alignItems="center"
+                            textDecoration="none"
+                            position="relative"
+                            _hover={{
+                                textDecoration: "none",
+                                "::after": {
+                                    width: "100%",
+                                    opacity: 1
+                                }
+                            }}
+                            sx={{
+                                "::after": {
+                                    content: '""',
+                                    position: "absolute",
+                                    bottom: "0",
+                                    left: "0",
+                                    width: "0%",
+                                    height: "2px",
+                                    bg: "white",
+                                    transition: "width 0.3s ease, opacity 0.3s ease",
+                                    opacity: 0
+                                }
+                            }}
                         >
-                            ABOUT / CV
+                            <Image src="/logo_3.webp" alt="Logo" height="40px" mr={2} />
+                            About
                         </ChakraLink>
                     </Box>
                 </Flex>

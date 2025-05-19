@@ -46,6 +46,7 @@ export default function ProjectsSection() {
                                     boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                     onClick={() => setShowTldr1((v) => !v)}
                                     w={{ base: "100%", sm: "auto" }}
+                                    borderRadius="full"
                                 >
                                     {showTldr1 ? 'Hide TLDR' : 'Read TLDR'}
                                 </Button>
@@ -66,6 +67,7 @@ export default function ProjectsSection() {
                                     }}
                                     _active={{}}
                                     pointerEvents="none"
+                                    borderRadius="full"
                                 >
                                     Case Study Coming Soon
                                 </Button>
@@ -152,6 +154,7 @@ export default function ProjectsSection() {
                                     boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
                                     onClick={() => setShowTldr2((v) => !v)}
                                     w={{ base: "100%", sm: "auto" }}
+                                    borderRadius="full"
                                 >
                                     {showTldr2 ? 'Hide TLDR' : 'Read TLDR'}
                                 </Button>
@@ -172,6 +175,7 @@ export default function ProjectsSection() {
                                     }}
                                     _active={{}}
                                     pointerEvents="none"
+                                    borderRadius="full"
                                 >
                                     Case Study Coming Soon
                                 </Button>
@@ -256,6 +260,7 @@ export default function ProjectsSection() {
                                     borderWidth="2px"
                                     borderColor="gray.800"
                                     boxShadow="inset 0px 1px 2px 0px rgba(255,255,255,0.3)"
+                                    borderRadius="full"
                                 >
                                     View Older Work
                                 </Button>

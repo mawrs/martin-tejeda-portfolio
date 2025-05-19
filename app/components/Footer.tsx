@@ -1,4 +1,4 @@
-import { Flex, Box, Text, Link, HStack, Icon, Grid, GridItem } from '@chakra-ui/react'
+import { Flex, Box, Text, Link, HStack, Icon, Grid, GridItem, Image } from '@chakra-ui/react'
 import { FaLinkedin, FaEnvelope, FaArrowUp } from 'react-icons/fa'
 
 export default function Footer() {
@@ -37,11 +37,74 @@ export default function Footer() {
                         </Text>
                     </HStack>
                     <HStack spacing={4} justify="center" width="100%">
-                        <Link href="https://www.linkedin.com/in/mawrs" isExternal display="flex" alignItems="center">
+                        <Link
+                            href="https://www.linkedin.com/in/mawrs"
+                            isExternal
+                            display="flex"
+                            alignItems="center"
+                            fontSize="md"
+                            fontWeight="medium"
+                            px={3}
+                            py={2}
+                            bg="transparent"
+                            textDecoration="none"
+                            position="relative"
+                            _hover={{
+                                textDecoration: "none",
+                                "::after": {
+                                    width: "100%",
+                                    opacity: 1
+                                }
+                            }}
+                            sx={{
+                                "::after": {
+                                    content: '""',
+                                    position: "absolute",
+                                    bottom: "0",
+                                    left: "0",
+                                    width: "0%",
+                                    height: "2px",
+                                    bg: "white",
+                                    transition: "width 0.3s ease, opacity 0.3s ease",
+                                    opacity: 0
+                                }
+                            }}
+                        >
                             <Icon as={FaLinkedin} boxSize={5} mr={2} />
                             LinkedIn
                         </Link>
-                        <Link href="mailto:hi@martintejeda.com" display="flex" alignItems="center">
+                        <Link
+                            href="mailto:hi@martintejeda.com"
+                            display="flex"
+                            alignItems="center"
+                            fontSize="md"
+                            fontWeight="medium"
+                            px={3}
+                            py={2}
+                            bg="transparent"
+                            textDecoration="none"
+                            position="relative"
+                            _hover={{
+                                textDecoration: "none",
+                                "::after": {
+                                    width: "100%",
+                                    opacity: 1
+                                }
+                            }}
+                            sx={{
+                                "::after": {
+                                    content: '""',
+                                    position: "absolute",
+                                    bottom: "0",
+                                    left: "0",
+                                    width: "0%",
+                                    height: "2px",
+                                    bg: "white",
+                                    transition: "width 0.3s ease, opacity 0.3s ease",
+                                    opacity: 0
+                                }
+                            }}
+                        >
                             <Icon as={FaEnvelope} boxSize={5} mr={2} />
                             Email
                         </Link>
@@ -87,12 +150,75 @@ export default function Footer() {
                     </GridItem>
                     <GridItem colStart={2} colEnd={3} justifySelf="end">
                         <HStack spacing={6}>
-                            <Link href="https://www.linkedin.com/in/mawrs" isExternal display="flex" alignItems="center">
-                                <Icon as={FaLinkedin} boxSize={5} mr={2} />
+                            <Link
+                                href="https://www.linkedin.com/in/mawrs"
+                                isExternal
+                                display="flex"
+                                alignItems="center"
+                                fontSize="md"
+                                fontWeight="medium"
+                                px={3}
+                                py={2}
+                                bg="transparent"
+                                textDecoration="none"
+                                position="relative"
+                                _hover={{
+                                    textDecoration: "none",
+                                    "::after": {
+                                        width: "100%",
+                                        opacity: 1
+                                    }
+                                }}
+                                sx={{
+                                    "::after": {
+                                        content: '""',
+                                        position: "absolute",
+                                        bottom: "0",
+                                        left: "0",
+                                        width: "0%",
+                                        height: "2px",
+                                        bg: "white",
+                                        transition: "width 0.3s ease, opacity 0.3s ease",
+                                        opacity: 0
+                                    }
+                                }}
+                            >
+                                <Image src="/linkedin.svg" alt="Logo" height="40px" mr={2} />
                                 LinkedIn
                             </Link>
-                            <Link href="mailto:hi@martintejeda.com" display="flex" alignItems="center">
-                                <Icon as={FaEnvelope} boxSize={5} mr={2} />
+                            <Link
+                                href="mailto:hi@martintejeda.com"
+                                display="flex"
+                                alignItems="center"
+                                fontSize="md"
+                                fontWeight="medium"
+                                px={3}
+                                py={2}
+                                bg="transparent"
+                                textDecoration="none"
+                                position="relative"
+                                _hover={{
+                                    textDecoration: "none",
+                                    "::after": {
+                                        width: "100%",
+                                        opacity: 1
+                                    }
+                                }}
+                                sx={{
+                                    "::after": {
+                                        content: '""',
+                                        position: "absolute",
+                                        bottom: "0",
+                                        left: "0",
+                                        width: "0%",
+                                        height: "2px",
+                                        bg: "white",
+                                        transition: "width 0.3s ease, opacity 0.3s ease",
+                                        opacity: 0
+                                    }
+                                }}
+                            >
+                                <Image src="/email.webp" alt="Logo" height="40px" mr={2} />
                                 Email
                             </Link>
                         </HStack>
