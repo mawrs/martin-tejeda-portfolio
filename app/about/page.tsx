@@ -1,7 +1,6 @@
 'use client'
 
-import { Box, Heading, Text, VStack, SimpleGrid, HStack, Icon, Image, Divider, Stack, Link } from '@chakra-ui/react'
-import { FaMusic, FaBook, FaVideo } from 'react-icons/fa'
+import { Box, Heading, Text, VStack, SimpleGrid, HStack, Image, Divider, Stack, Link } from '@chakra-ui/react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
